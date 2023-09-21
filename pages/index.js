@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Simplified Labs</title>
+        <title>Simplified Labs - Building Logics</title>
         <meta
           name="description"
           content="Simplified Labs is a powerful company which will scale your apps to the moon."
@@ -27,11 +27,9 @@ const Home = () => {
       <Navbar />
       <Hero />
       <SectionTitle
-        pretitle="Nextly Benefits"
-        title=" Why should you use this landing page">
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        pretitle="Our Services"
+        title=" We take care of your business">
+        At Simplified Labs, we don't just build websites and apps; we craft digital experiences that leave a lasting impression.
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />

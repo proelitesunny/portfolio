@@ -11,8 +11,8 @@ import benefitOneImg from "../public/img/benefit-one.png";
 import benefitTwoImg from "../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Website Development",
+  desc: "You got an idea, or do you need a custom website for your business? We are here to help you achieve your goal. Our engineer uses all the latest tech to craft your need and help you grow your business with a stable and scalable website.",
   image: benefitOneImg,
   bullets: [
     {
@@ -34,8 +34,8 @@ const benefitOne = {
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "App Development",
+  desc: "Having a mobile application for your business can help you improving direct communication and engagement with your clients and customers. We are a team of experts who can help you to have a stable and scalable mobile application for your Brand.",
   image: benefitTwoImg,
   bullets: [
     {
