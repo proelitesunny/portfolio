@@ -13,18 +13,17 @@ const Testimonials  = () => {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Share a real <Mark>testimonial</Mark>
-              that hits some of your benefits from one of your popular customer.
+              Simplified Labs not only brought my vision to life but also added a touch of technical excellence that exceeded my expectations.
             </p>
 
             <Avatar
               image={userOneImg}
-              name="Sarah Steiner"
-              title="VP Sales at Google"
+              name="Enamul Hassan"
+              title="Founder at Prayog India"
             />
           </div>
         </div>
-        <div className="">
+        {/* <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
               Make sure you only pick the <Mark>right sentence</Mark>
@@ -51,7 +50,7 @@ const Testimonials  = () => {
               title="Co-founder of Acme Inc"
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </Container>
   );

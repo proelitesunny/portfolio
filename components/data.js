@@ -1,60 +1,88 @@
 import {
-  FaceSmileIcon,
-  ChartBarSquareIcon,
-  CursorArrowRaysIcon,
   DevicePhoneMobileIcon,
   AdjustmentsHorizontalIcon,
   SunIcon,
+  UserGroupIcon,
+  ComputerDesktopIcon,
+  UsersIcon,
+  WrenchScrewdriverIcon,
+  PencilSquareIcon,
+  LockClosedIcon,
+  ClipboardDocumentCheckIcon,
+  LightBulbIcon,
+  CogIcon,
 } from "@heroicons/react/24/solid";
 
 import benefitOneImg from "../public/img/benefit-one.png";
 import benefitTwoImg from "../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Website Development",
-  desc: "You got an idea, or do you need a custom website for your business? We are here to help you achieve your goal. Our engineer uses all the latest tech to craft your need and help you grow your business with a stable and scalable website.",
+  title: "UI/UX Development",
+  desc: "Craft user experiences that resonate. Our UI/UX design experts turn ideas into stunning, intuitive interfaces. We optimize engagement, making every click count.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
-      icon: <FaceSmileIcon />,
+      title: "Expert UI/UX Design",
+      desc: "Elevate user experiences with our expertise.",
+      icon: <UserGroupIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
-      icon: <ChartBarSquareIcon />,
+      title: "Stunning and User-Friendly",
+      desc: "Create visually appealing, intuitive interfaces.",
+      icon: <ComputerDesktopIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
-      icon: <CursorArrowRaysIcon />,
+      title: "Optimized Engagement",
+      desc: "Ensure maximum user engagement and satisfaction.",
+      icon: <UsersIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "App Development",
-  desc: "Having a mobile application for your business can help you improving direct communication and engagement with your clients and customers. We are a team of experts who can help you to have a stable and scalable mobile application for your Brand.",
+  title: "Website Development",
+  desc: "Digital presence tailored to your vision. Our web development team delivers responsive, secure, and SEO-friendly websites. From e-commerce to blogs, we bring your ideas to life.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
-      icon: <DevicePhoneMobileIcon />,
+      title: "Dynamic and Responsive",
+      desc: "Build dynamic, responsive websites aligned with your vision.",
+      icon: <WrenchScrewdriverIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
-      icon: <AdjustmentsHorizontalIcon />,
+      title: "Customized Web Solutions",
+      desc: "Tailor-made solutions for e-commerce, blogs, and more.",
+      icon: <PencilSquareIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
+      title: "Secure, Scalable, SEO-Friendly",
+      desc: "Prioritize security, scalability, and SEO-friendliness.",
+      icon: <LockClosedIcon />,
     },
   ],
 };
 
+const benefitThree = {
+  title: "Mobile App Development",
+  desc: "Apps that captivate and perform. We design and develop custom iOS and Android apps that align with your goals. Expect user-centric design, seamless functionality, and robust security.",
+  image: benefitTwoImg,
+  bullets: [
+    {
+      title: "Cutting-Edge Mobile Apps",
+      desc: "Craft cutting-edge iOS and Android apps.",
+      icon: <CogIcon />,
+    },
+    {
+      title: "Personalized Solutions",
+      desc: "Create custom solutions that match your business objectives.",
+      icon: <LightBulbIcon />,
+    },
+    {
+      title: "User-Centric Design",
+      desc: "Prioritize user experience, ensuring smooth performance and robust security.",
+      icon: <ClipboardDocumentCheckIcon />,
+    },
+  ],
+};
 
-export {benefitOne, benefitTwo};
+export {benefitOne, benefitTwo, benefitThree};
